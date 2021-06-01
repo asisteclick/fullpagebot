@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+
+<body>
+    <style>
+    body {
+        margin: 0;
+    }
+
+    iframe {
+      width: 1px;
+      min-width: 100%;
+      height: 100%;
+      border: none;
+    }
+    </style>
+    
+    <iframe id="chatbot" src="https://app.asisteclick.com/V2/request.php?id=asisteclick-11&deptid=0&pagex=fullpagebot&hashbot=agents"></iframe>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://app.asisteclick.com/tools/fullpagebot/iframe-resizer.min.js"></script>
+    <script>
+    iFrameResize({
+        log: true
+    }, "#chatbot"); 
+    </script>
+</body>
+</html>
