@@ -7,7 +7,7 @@ Este script permite desplegar un chatbot en página completa dentro de una URL d
 2) Copia en `ventasbot` el contenido del archivo `index.html`
 3) Reemplaza el atributo `src` del iframe `chatbot` por la URL de tu bot de AsisteClick
 
-    <iframe id="chatbot" src="https://app.asisteclick.com/V2/request.php?id=asisteclick-11&deptid=0&pagex=fullpagebot&hashbot=agents"></iframe>
+    <iframe id="chatbot" src="https://app.asisteclick.com/v3/request.php?id=asisteclick-11&deptid=0&pagex=fullpagebot&hashbot=agents"></iframe>
 
 El resultado será que el chatbot será ejecutado dentro del dominio de tu empresa, a página completa y responsive.
 
